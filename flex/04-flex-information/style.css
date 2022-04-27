@@ -11,7 +11,7 @@ img {
   font-size: 36px;
   font-weight: 900;
   align-self: center;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -28,12 +28,12 @@ img {
 }
 
 body{
-display: flex;
-flex-direction: column;
+text-align: center;
 }
 .image{
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
+  gap: 52px;
 }
 
 .text{
